@@ -1,0 +1,20 @@
+[12-Dec-2019 15:35:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/alti/Local Sites/test/app/public/wp-content/themes/test/index.php on line 6
+[12-Dec-2019 15:39:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/alti/Local Sites/test/app/public/wp-content/themes/test/index.php on line 4
+[12-Dec-2019 15:39:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/alti/Local Sites/test/app/public/wp-content/themes/test/index.php on line 4
+[12-Dec-2019 16:24:41 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Users/alti/Local Sites/test/app/public/wp-content/themes/test/index.php:4
+Stack trace:
+#0 /Users/alti/Local Sites/test/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/alti/Local Sites/test/app/public/wp-blog-header.php(19): require_once('/Users/alti/Loc...')
+#2 /Users/alti/Local Sites/test/app/public/index.php(17): require('/Users/alti/Loc...')
+#3 {main}
+  thrown in /Users/alti/Local Sites/test/app/public/wp-content/themes/test/index.php on line 4
+[12-Dec-2019 16:47:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/alti/Local Sites/test/app/public/wp-content/themes/test/functions.php on line 6 and at least 2 expected in /Users/alti/Local Sites/test/app/public/wp-includes/plugin.php:403
+Stack trace:
+#0 /Users/alti/Local Sites/test/app/public/wp-content/themes/test/functions.php(6): add_action('wp_enqueue_scri...')
+#1 /Users/alti/Local Sites/test/app/public/wp-settings.php(497): include('/Users/alti/Loc...')
+#2 /Users/alti/Local Sites/test/app/public/wp-config.php(77): require_once('/Users/alti/Loc...')
+#3 /Users/alti/Local Sites/test/app/public/wp-load.php(37): require_once('/Users/alti/Loc...')
+#4 /Users/alti/Local Sites/test/app/public/wp-blog-header.php(13): require_once('/Users/alti/Loc...')
+#5 /Users/alti/Local Sites/test/app/public/index.php(17): require('/Users/alti/Loc...')
+#6 {main}
+  thrown in /Users/alti/Local Sites/test/app/public/wp-includes/plugin.php on line 403

@@ -2,10 +2,10 @@
 <?php
 while (have_posts()) {
   the_post(); ?>
-  <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-  <hr />
+  <h1>This is a page </h1>
+  <h1><?php the_title(); ?></h1>
+  <h2><?php the_content(); ?></h2>
 <?php
 }
 ?>
-<h1>Hello World</h1>
 <?php get_footer() ?>
